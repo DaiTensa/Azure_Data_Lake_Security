@@ -11,25 +11,23 @@
       
       
       
-        <link rel="prev" href="../introduction/">
+        <link rel="prev" href="deploiement.html">
       
       
-        <link rel="next" href="../securite/">
       
-      
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
     
     
       
-        <title>Déploiement Terraform - Azure Data Lake Ingestion Project 2</title>
+        <title>Sécurité - Azure Data Lake Ingestion Project 2</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.a40c8224.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,7 +46,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -72,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#configuration-du-cluster-databricks" class="md-skip">
+        <a href="#securite" class="md-skip">
           Skip to content
         </a>
       
@@ -88,7 +86,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Azure Data Lake Ingestion Project 2" class="md-header__button md-logo" aria-label="Azure Data Lake Ingestion Project 2" data-md-component="logo">
+    <a href="../index.html" title="Azure Data Lake Ingestion Project 2" class="md-header__button md-logo" aria-label="Azure Data Lake Ingestion Project 2" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -108,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Déploiement Terraform
+              Sécurité
             
           </span>
         </div>
@@ -183,7 +181,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Azure Data Lake Ingestion Project 2" class="md-nav__button md-logo" aria-label="Azure Data Lake Ingestion Project 2" data-md-component="logo">
+    <a href="../index.html" title="Azure Data Lake Ingestion Project 2" class="md-nav__button md-logo" aria-label="Azure Data Lake Ingestion Project 2" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -201,7 +199,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -256,7 +254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../partie1/introduction/" class="md-nav__link">
+      <a href="../partie1/introduction.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -277,7 +275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../partie1/veille/" class="md-nav__link">
+      <a href="../partie1/veille.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -298,7 +296,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../partie1/structure/" class="md-nav__link">
+      <a href="../partie1/structure.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -361,7 +359,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../partie2/introduction/" class="md-nav__link">
+      <a href="../partie2/introduction.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -382,7 +380,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../partie2/deploiement/" class="md-nav__link">
+      <a href="../partie2/deploiement.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -403,7 +401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../partie2/security/" class="md-nav__link">
+      <a href="../partie2/security.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -424,7 +422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../partie2/ingestion/" class="md-nav__link">
+      <a href="../partie2/ingestion.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -445,7 +443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../partie2/infrastructure/" class="md-nav__link">
+      <a href="../partie2/infrastructure.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -510,11 +508,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../introduction/" class="md-nav__link">
+      <a href="introduction.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="deploiement.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Déploiement Terraform
   </span>
   
 
@@ -540,119 +559,7 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Déploiement Terraform
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Déploiement Terraform
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#structure-du-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      Structure du Code
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#variables-requises" class="md-nav__link">
-    <span class="md-ellipsis">
-      Variables Requises
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuration-du-provider" class="md-nav__link">
-    <span class="md-ellipsis">
-      Configuration du Provider
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#specifications-du-cluster" class="md-nav__link">
-    <span class="md-ellipsis">
-      Spécifications du Cluster
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Spécifications du Cluster">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#parametres-du-cluster" class="md-nav__link">
-    <span class="md-ellipsis">
-      Paramètres du Cluster
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deploiement" class="md-nav__link">
-    <span class="md-ellipsis">
-      Déploiement
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../securite/" class="md-nav__link">
+      <a href="securite.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -661,6 +568,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -693,74 +601,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#structure-du-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      Structure du Code
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#variables-requises" class="md-nav__link">
-    <span class="md-ellipsis">
-      Variables Requises
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuration-du-provider" class="md-nav__link">
-    <span class="md-ellipsis">
-      Configuration du Provider
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#specifications-du-cluster" class="md-nav__link">
-    <span class="md-ellipsis">
-      Spécifications du Cluster
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Spécifications du Cluster">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#parametres-du-cluster" class="md-nav__link">
-    <span class="md-ellipsis">
-      Paramètres du Cluster
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deploiement" class="md-nav__link">
-    <span class="md-ellipsis">
-      Déploiement
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -774,98 +614,56 @@
                   
 
 
-<h1 id="configuration-du-cluster-databricks">Configuration du Cluster Databricks</h1>
-<p>La configuration et le déploiement d'un cluster Databricks via Terraform.</p>
-<h2 id="structure-du-code">Structure du Code</h2>
-<p>Le code est organisé dans le dossier <code>Databricks_cluster_analysis/databricks/</code> et contient la configuration nécessaire pour déployer un cluster Databricks avec des paramètres spécifiques.</p>
-<h2 id="variables-requises">Variables Requises</h2>
-<p>Les variables suivantes doivent être définies dans votre fichier <code>terraform.tfvars</code> :</p>
-<pre><code class="language-terraform">// filepath: terraform.tfvars
-sp_client_id     = &quot;votre_client_id&quot;
-sp_secret_value  = &quot;votre_secret&quot;
-sp_tenant_id     = &quot;votre_tenant_id&quot;
-workspace_url    = &quot;votre_workspace_url&quot;
-initial_firstname = &quot;v&quot;
-lastname         = &quot;nom&quot;
-</code></pre>
-<table>
-<thead>
-<tr>
-<th>Variable</th>
-<th>Description</th>
-<th>Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>sp_client_id</code></td>
-<td>ID du Service Principal Azure</td>
-<td>string</td>
-</tr>
-<tr>
-<td><code>sp_secret_value</code></td>
-<td>Clé secrète du Service Principal</td>
-<td>string</td>
-</tr>
-<tr>
-<td><code>sp_tenant_id</code></td>
-<td>ID du tenant Azure</td>
-<td>string</td>
-</tr>
-<tr>
-<td><code>workspace_url</code></td>
-<td>URL du workspace Databricks</td>
-<td>string</td>
-</tr>
-<tr>
-<td><code>initial_firstname</code></td>
-<td>Initiale du prénom</td>
-<td>string</td>
-</tr>
-<tr>
-<td><code>lastname</code></td>
-<td>Nom de famille</td>
-<td>string</td>
-</tr>
-</tbody>
-</table>
-<h2 id="configuration-du-provider">Configuration du Provider</h2>
-<p>Le provider Databricks est configuré avec l'authentification Azure AD :</p>
-<pre><code class="language-terraform">provider &quot;databricks&quot; {
-  host               = var.workspace_url
-  azure_client_id     = var.sp_client_id
-  azure_client_secret = var.sp_secret_value
-  azure_tenant_id     = var.sp_tenant_id
-}
-</code></pre>
-<h2 id="specifications-du-cluster">Spécifications du Cluster</h2>
-<p>Le cluster est configuré avec les paramètres suivants :</p>
-<pre><code class="language-terraform">resource &quot;databricks_cluster&quot; &quot;cluster&quot; {
-  cluster_name            = &quot;databricks-cluster-${var.initial_firstname}${var.lastname}&quot;
-  spark_version           = &quot;15.4.x-scala2.12&quot;
-  node_type_id            = &quot;Standard_DS3_v2&quot;
-  autotermination_minutes = 60
-  spark_conf = {
-    &quot;spark.databricks.cluster.profile&quot; = &quot;singleUser&quot;
-  }
-  num_workers = 1
-}
-</code></pre>
-<h3 id="parametres-du-cluster">Paramètres du Cluster</h3>
+<h1 id="securite">Sécurité</h1>
 <ul>
-<li><strong>Nom</strong> : Le nom du cluster est généré automatiquement avec l'initiale du prénom et le nom de famille</li>
-<li><strong>Version Spark</strong> : 15.4.x avec Scala 2.12</li>
-<li><strong>Type de Node</strong> : Standard_DS3_v2</li>
-<li><strong>Auto-termination</strong> : 60 minutes</li>
-<li><strong>Nombre de Workers</strong> : 1</li>
-<li><strong>Profil</strong> : singleUser</li>
+<li>L'authentification se fait via un Service Principal Azure</li>
+<li>Les secrets sont stockés dans le fichier <code>terraform.tfvars</code> (à ne pas versionner)</li>
+<li>Le cluster est configuré en mode "singleUser" pour plus de sécurité</li>
 </ul>
-<h2 id="deploiement">Déploiement</h2>
-<p>Pour déployer le cluster, exécutez les commandes suivantes :</p>
-<pre><code class="language-bash">terraform init
-terraform plan -var-file=&quot;terraform.tfvars&quot; -out=&quot;plan.tfplan&quot;
-terraform apply &quot;plan.tfplan&quot;
+<h1 id="service-principal-databricks-sp_databricks_p1">Service Principal Databricks (sp_databricks_p1)</h1>
+<p><strong>Objectif</strong> : Gestion des accès pour Databricks</p>
+<pre><code class="language-terraform">resource &quot;azuread_application&quot; &quot;sp_databricks_p1&quot; {
+  display_name = &quot;sp-databricks-${var.initial_firstname}${var.lastname}&quot;
+  owners       = [data.azuread_client_config.current.object_id]
+}
 </code></pre>
+<p><strong>Rôles attribués</strong> :
+    - Storage Blob Data Contributor</p>
+<pre><code>- Key Vault Secrets User
+
+- Key Vault Contributor
+
+- Storage Account Key Operator Service Role
+
+- Contributor (sur le Resource Group Databricks)
+</code></pre>
+<h2 id="securisation-des-secrets">Sécurisation des Secrets</h2>
+<h3 id="gestion-des-mots-de-passe">Gestion des Mots de Passe</h3>
+<p>Le mots de passe du SP :
+1. Généré automatiquement
+2. Stocké dans Key Vault
+3. Configuré avec une date d'expiration (2025-05-05)</p>
+<pre><code class="language-terraform">resource &quot;azuread_application_password&quot; &quot;sp_databricks_password&quot; {
+  application_id = azuread_application.sp_databricks_p1.id 
+  end_date      = &quot;2025-05-05T23:59:59Z&quot;
+}
+</code></pre>
+<h3 id="secret-scope-databricks">Secret Scope Databricks</h3>
+<p>Un Secret Scope dédié est créé pour Databricks :</p>
+<pre><code class="language-terraform">resource &quot;databricks_secret_scope&quot; &quot;databricks_secret_scope&quot; {
+  name = &quot;databricks-secret-scope-${var.initial_firstname}-${var.lastname}&quot;
+  keyvault_metadata {
+    resource_id = azurerm_key_vault.kv.id
+    dns_name    = azurerm_key_vault.kv.vault_uri
+  }
+}
+</code></pre>
+<h2 id="maintenance">Maintenance</h2>
+<ul>
+<li>Le cluster s'arrête automatiquement après 60 minutes d'inactivité</li>
+<li>La mise à jour du cluster peut se faire en modifiant les paramètres dans le code Terraform</li>
+<li>Les modifications doivent être appliquées avec <code>terraform apply</code></li>
+</ul>
 
 
 
@@ -912,10 +710,10 @@ terraform apply &quot;plan.tfplan&quot;
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>
       
     
   </body>
