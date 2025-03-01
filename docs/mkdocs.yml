@@ -1,6 +1,5 @@
 site_name: "Azure Data Lake Ingestion Project 2"
 site_description: "Documentation for setting up Azure Data Lake Gen2 and managing data ingestion from various sources."
-site_url: https://DaiTensa.github.io/Azure_Data_Lake_Security/
 theme:
   name: "material"  # Optional: Choose a theme you like (e.g., 'readthedocs' or 'material')
   palette:
