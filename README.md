@@ -50,3 +50,6 @@ Avant de lancer le projet, assurez-vous d'avoir installé les outils et dépenda
     LOCAL_FILE_PATH=<votre_local_file_path>
     LOCAL_FILE_PATH=<votre_local_file_path_parquet>
 ```
+
+8. **Lien documentation du projet**
+[https://DaiTensa.github.io/Azure_Data_Lake_Security/](https://daitensa.github.io/Azure_Data_Lake_Security/)
